@@ -1,0 +1,31 @@
+body{
+    background-color: #9db7df;
+    font-size: 30px;
+  }
+  table{
+    margin-top: 1em;
+
+  }
+  
+   th,  td{
+    text-align: center;
+    padding: .2em .5em;
+  }
+  
+   caption{
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin-bottom: .5em;
+  }
+  .cumple{
+    background-color:brown ;
+    border-radius: 5px;
+  }
+  
+    tr{
+    font-family:monospace;
+    border-bottom: 1px solid black;
+  }
+  
+  
