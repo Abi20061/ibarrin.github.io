@@ -1,0 +1,50 @@
+header {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  nav {
+    float: left;
+  }
+  
+  nav ul {
+    list-style-type: style;;
+    overflow: hidden; 
+  }
+  
+  nav ul li {
+    float: left;
+    font-family:monospace;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #a8b1e2;
+  }
+  h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 80px;
+   
+  }
+  body{
+    background-color:rgb(236, 240, 207)
+}
+div{
+    background-color:darkslategray;
+    width:auto;
+    padding: 300px;
+
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT''Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+img{
+    margin-right: 50px;
+}

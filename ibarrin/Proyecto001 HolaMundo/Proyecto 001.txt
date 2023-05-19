@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<head>
+	<meta charset= "UTF-8">
+<title>
+	Página wep
+</title>
+</head>
+<body>
+	<h1>Hola Mundo</h1>
+	<p>Bienvenidos!!!</p>
+</body>
+</html>

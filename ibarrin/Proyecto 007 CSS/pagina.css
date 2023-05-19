@@ -1,0 +1,55 @@
+.contenido{
+    position: relative;
+}
+.cajitas{
+  width: 180px;
+  height: 180px;s
+  color: rgb(0, 0, 0);
+  text-align: center;
+  line-height: 180px;
+  margin: 15px;
+  float: left;
+  font-size: 25px;
+  font-family: monospace;
+}
+.fondito{
+  background-color: #0d0f66;
+  -webkit-transition: background-color 1s linear;
+  transition: background-color 2s linear;
+}
+.fondito:hover{
+  background-color: #b089db;
+}
+.letra{
+  background-color: #b45d82;
+  -webkit-transition: font-size 1s ease;
+  transition: font-size 1s ease;
+}
+.letra:hover{
+  font-size: 28px;
+}
+.color{
+  background-color: #77add1;
+  -webkit-transition: color 1s linear;
+  transition: color 1s linear;
+}
+.color:hover{
+  color: rgb(231, 239, 255);
+}
+.movimiento{
+  background-color: #d3a542;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+.movimiento:hover{
+  line-height: 300px;
+}
+.bordecito{
+  border-radius: 3px;
+  background-color: #b64242;
+  -webkit-transition: 1s linear;
+  transition: 1s linear
+}
+.bordecito:hover{
+  border-radius: 20px;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P2021AVP003MenuDeNavegación</title>
+</head>
+<body>
+    <div>
+        <h1>Opciones</h1>  
+        <h3>Aplicaciones de streaming</h3>
+        <ul>
+            <li>
+                <a href="https://www.netflix.com/mx/">Netflix</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+             <a href="https://www.hbomax.com/mx/es">HBOMAX</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="https://www.primevideo.com/">Prime Video</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <h3>Comida Rapida</h3>
+        <ul>
+            <li>
+                <a href="https://www.burgerking.com.mx/">Burguer King</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+             <a href="https://www.mcdonalds.com.mx/">McDonalds</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="https://carlsjr.com.mx/">Carl's Junior</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <h3>Tiendas de Tenis</h3>
+        <ul>
+            <li>
+                <a href="https://www.adidas.mx/">Adidas</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+             <a href="https://www.vans.mx/">Vans</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="https://converse.com.mx/">Converse</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <h3>Redes sociales</h3>
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/">Instagram</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+             <a href="https://es-la.facebook.com/">Facebook</a>
+            </li>
+        </ul>
+        <ul>
+            <li>  
+                <a href="https://twitter.com/">Twitter</a>
+            </li>
+        </ul>
+    </div>
+    
+</body>
+</html>
