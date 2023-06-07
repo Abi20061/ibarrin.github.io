@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tipos De Datos En JS</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <p>
+        4AMP Obeso Camacho David Eduardo<br>
+        P2021AMP005 Tipos De Datos<br>
+        davideduardoobesocamacho@gmail.com<br>
+        19/Mayo/2023<br>
+    </p>
+    <script>
+        //undefined
+        var variable;
+        if ( variable === undefined) {
+            document.write("Variable esta sin definir <br><br>");  // No se ejecuta
+        }
+        //Boolean
+        let a= true;
+        let b= false;
+        if(a==true){
+            document.write("Boolean esta activo <br><br>")
+        }
+        if (b==true) {
+            document.write("Boolean esta activo <br><br>")
+        } else{
+            document.write("Boolean esta desactivo :( <br><br>")
+        }
+        //number
+        const number = 2 ** 53;
+        number.constructor.name;    // "Number" (Es de tipo Number)
+        number;       // 9007199254740992
+        number + 1;   // 9007199254740992
+        number + 5;   // 9007199254740996
+        number + 40;  // 9007199254741032
+        document.write(number+" Esto es un number<br><br>");
+        //string
+        var c="Esto es un string: hola como estas :)<br><br>";
+        document.write(c);
+        //bigint
+        const bigint = 3n ** 53n;
+        number.constructor.name;    // "BigInt" (Es de tipo BigInt)
+
+        bigint;
+        bigint + 1n;
+        bigint + 5n;
+        bigint + 40n; 
+        document.write(bigint+" Esto es BigInt<br><br>");
+        //Symbol
+        const x = Symbol('hey');
+        console.log(x); // Symbol(hey)
+        //Null
+        function obtenervocales(str) {
+            const m = str.match(/[aeiou]/gi);
+            if (m === null) {
+                return 0;
+            }
+            return m.length;
+        }
+        document.writeln(obtenervocales('Esto Cuenta Las Vocales')+'<br><br>');
+        //Object
+        const carro = {
+        marca: 'Toyota',
+        modelo: 'supra sin faro',
+        precio: '1.429 Millones de pesos'
+        }
+        document.writeln(carro.marca+'<br>'+carro.modelo+'<br>'+carro.precio+'<br><br>');
+        //Function
+        const square = 
+        function (number) {
+         return number * number;
+        };
+        var y = square(10);
+        document.writeln(y+'<br>');
+    </script>
+</body>
+</html>
