@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form id="loginform">
+        Correo:<input type="email" name="email"  id="email" required><br>
+        Contraseña:<input type="password" name="password" id="password" required><br>
+        <select name="color" id="color" required>
+            <option value="Selección">Selecciona tu color favorito</option>
+            <option value="Morado">Morado</option>
+            <option value="Negro">Negro</option>
+            <option value="Rojo">Rojo</option>
+            <option value="Verde">Verde</option>
+            <option value="Rosa">Rosa</option>
+        </select><br>
+        <input type="submit" value="Pulsa esto si estas listo"><br>
+    </form>    
+        <p id="result"></p>
+        <p id="resu"></p>
+    <script>
+        document.getElementById("loginform").addEventListener("submit",function(event) {
+            event.preventDefault();
+            var email= document.getElementById("email").value;
+            var password= document.getElementById("password").value;
+            var color= document.getElementById("color").value;
+            if(email==="davideduardoobesocamacho@gmail.com" && password==="123456789"){               
+                    document.getElementById("result").textContent="Inicio de sesión con éxito";
+            } else{               
+                    document.getElementById("result").textContent="Inicio de sesión fallido :´(";
+            }
+            switch(color){
+                    case "Selección": 
+                    document.getElementById("resu").textContent="No seleccionaste ningún color";
+                    break;
+                    case "Morado": 
+                    document.getElementById("resu").textContent="esta morado";
+                    break;
+                    case "Negro": 
+                    document.getElementById("resu").textContent="esta negrizo";
+                    break;
+                    case "Rojo": 
+                    document.getElementById("resu").textContent="esta rojizo";
+                    break;
+                    case "Verde": 
+                    document.getElementById("resu").textContent="esta verdoso";
+                    break;
+                    case "Rosa":  
+                    document.getElementById("resu").textContent="esta rosado  ";
+                    break;
+                }
+        });
+    </script>
+</body>
+</html>
