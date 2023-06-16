@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>P016</title>
+    <style>
+        body{
+            background-color: rgb(70, 70, 70);
+        }
+        table{
+            width: 40%;
+            height: 250px;
+            text-align: center;
+            margin-left: 28%;
+            margin-top: 10%;
+            animation: color 1s infinite ease-in-out;
+            background-color: rgb(70, 70, 70);
+        }
+        caption{
+            background-color: rgb(45, 45, 45);
+            color: whitesmoke;
+            padding: 2px;
+            animation: color 1s infinite ease-in-out;
+        }
+        th{
+            background-color: rgb(45, 45, 45);
+            color: whitesmoke;
+            padding: 2px;
+        }
+        td{
+            background-color: rgb(170, 170, 170);
+            padding: 2px;
+            animation: color 1s infinite ease-in-out;
+            font-size: large;
+        }
+        @keyframes color{
+            0%{border: 2px solid rgb(170, 170, 170);}
+            50%{border: 2px solid rgb(120, 120, 120);}
+            100%{border: 2px solid rgb(170, 170, 170);}
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Junio 2023</caption>
+        <script>
+            let num = 28, aux = 0;
+            let dias = ["Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sabado"];
+
+            document.write("<tr>");
+                for(let d=0; d<7; d++){
+                    document.write("<th>" + dias[d] + "</th>");
+                }
+            document.write("</tr>");
+
+
+            for(let i=0; i<5; i++){
+                document.write("<tr>");
+                    for(let j=0; j<7; j++){
+                        if(num == 31){
+                            num = 0;
+                        }
+                        if(aux == 33){
+                            num = 0;
+                        }
+                        aux++;
+                        num++;
+                        document.write("<td>" + num + "</td>");
+                    }
+                document.write("</tr>");
+            }
+        </script>
+    </table>
+</body>
+</html>
