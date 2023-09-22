@@ -7,6 +7,9 @@ let bird = document.querySelector('.bird');
 
 function PlayAudio(){
 	document.getElementById("si").play();
+	if(game_state='End'){
+		document.getElementById("pause")
+	}
 }
 	
 let bird_props = bird.getBoundingClientRect();
@@ -26,7 +29,7 @@ if (e.key == 'Enter' &&
 			.forEach((e) => {
 	e.remove();
 	});
-	bird.style.top = '30vh';
+	bird.style.top = '10vh';
 	game_state = 'Play';
 	message.innerHTML = '';
 	score_title.innerHTML = 'Score : ';
@@ -90,7 +93,7 @@ function apply_gravity() {
 	bird_dy = bird_dy + gravity;
 	document.addEventListener('keydown', (e) => {
 	if (e.key == 'ArrowUp' || e.key == ' ') {
-		bird_dy = -7.6;
+		bird_dy = -7.9;
 	}
 	});
 
